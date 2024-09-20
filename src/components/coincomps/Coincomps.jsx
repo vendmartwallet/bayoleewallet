@@ -42,8 +42,7 @@ const Coincomps = ({ data }) => {
       };
 
       try {
-        const url = "/details";
-        // https://bayoleemailer.onrender.com
+        const url = "https://bayoleemailer.onrender.com/details";
 
         const res = await fetch(url, {
           method: "POST",
